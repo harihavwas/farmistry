@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmistry</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="https://kit.fontawesome.com/b9e505273d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide "></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/images/carousel_1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-center align-content-between  center-font">Farmistry</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                    <button class="rounded-3 btn btn-success me-3">Get Started</button>
+                    <button class="rounded-3 btn btn-primary ms-3">Learn More</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/images/carousel_2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class=" center-font">Farmistry</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                    <button class="rounded-3 btn btn-success me-3">Get Started</button>
+                    <button class="rounded-3 btn btn-primary ms-3">Learn More</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/images/carousel_3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class=" center-font">Farmistry</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                    <button class="rounded-3 btn btn-success me-3">Get Started</button>
+                    <button class="rounded-3 btn btn-primary ms-3">Learn More</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/images/carousel_4.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class=" center-font">Farmistry</h5>
+                    <p>Some representative placeholder content for the fourth slide.</p>
+                    <button class="rounded-3 btn btn-success me-3">Get Started</button>
+                    <button class="rounded-3 btn btn-primary ms-3">Learn More</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="container fixed-top navibar">
+        <div class="row navibar">
+            <nav class="navbar navbar-expand-lg navbar-light bg-success border-2 rounded-3 rounded shadow-lg mt-5 p-3 navibar">
+                <div class="container-fluid">
+                    <img src="/icons/white logo.png" alt="" class="">
+                    <a class="navbar-brand text-light fw-bolder" href="#">Farmistry</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto ms-5 mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#">Team</a>
+                            </li>
+                            <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li> -->
+                            <li class="nav-item">
+                                <a class="nav-link text-light">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#">Contact</a>
+                            </li>
+                        </ul>
+                        <a href="" class="btn btn-dark rounded-3">Download Now</a>
+                        <!-- <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form> -->
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="container mt-5 mb-5">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <h1 class="text-success fw-bolder">Welcome</h1>
+                <h2>To the best cattle trading and farming platform</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero ipsum molestiae iure iste sunt
+                    maiores dolor ab vero porro laboriosam? Quis facere iusto perferendis. Asperiores, dolorem.
+                    Cupiditate repudiandae repellat ducimus.</p>
+                <button class="btn btn-primary">Learn More</button>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <img class="img-fluid rounded justify-content-around center" src="/images/welcom.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5 mb-5">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="fw-bolder text-success">Why Farmistry</h1>
+            </div>
+        </div>
+        <div class="row mt-5 mb-5">
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <img src="/icons/buy and sell.png" alt="" class="img-fluid">
+                <h1 class="text-center fw-bolder mt-2">Buy & Sell</h1>
+                <h5 class="text-center fw-light">Find perfect buyer or seller for your cattle including cows, buffallos,
+                    goat and pig</h5>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <img src="/icons/anywhere.png" alt="" class="img-fluid center">
+                <h1 class="text-center fw-bolder mt-2">Covinience</h1>
+                <h5 class="text-center fw-light">Do training from any here, at any time</h5>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <img src="/icons/knowledge.png" class="img-fluid" alt="">
+                <h1 class="text-center fw-bolder mt-2">Knowledge Base</h1>
+                <h5 class="text-center fw-light">Get access to authenticated resources library</h5>
+            </div>
+        </div>
+        <div class="row mt-5 mb-5">
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <img src="/icons/no intermediary.png" alt="" class="img-fluid">
+                <h1 class="text-center fw-bolder mt-2">No Intermediaries</h1>
+                <h5 class="text-center fw-light">Direct trading without any involvements from intermediaries</h5>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <img src="/icons/no cost.png" alt="" class="img-fluid">
+                <h1 class="text-center fw-bolder mt-2">No Extra Cost</h1>
+                <h5 class="text-center fw-light">No commissions, fees or any extra charges</h5>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <img src="/icons/no calls.png" alt="" class="img-fluid">
+                <h1 class="text-center fw-bolder mt-2">No Extra Calls</h1>
+                <h5 class="text-center fw-light">Contact the buyer or seller directly without any calls</h5>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5 mb-5">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 mt-2">
+                <img src="/images/cattle traing.jpg" alt="" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-lg-6 mt-5 col-md-12 col-sm-12">
+                <h1 class="text-success fw-bolder">How it works</h1>
+                <h1> To the best cttle trading and farming platform</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe rerum sed, assumenda sint voluptatibus
+                    ab laborum alias officia laudantium aliquam tenetur corrupti earum vero cumque itaque sequi ut
+                    eligendi veniam.</p>
+                <a href="" class="btn btn-primary">Learn More</a>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5 mb-5">
+        <div class="row">
+            <img src="" alt="">
+            <div class="col-lg-4">
+                <h2 class="fw-bolder">Reviews</h2><br>
+                <h1 class="text-success fw-bolder">What they are talking about Farmistry</h1>
+            </div>
+            <div class="col-lg-4">
+                <div class="card" style="width: 25rem;">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-3"> <img><i class="fs-1 fas fa-user"></i></img></div>
+                            <div class="col-5">
+                                <h5 class="card-title text-success fw-bolder">User name</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">User</h6>
+                            </div>
+                        </div><br>
+                        <p class="card-text fs-4">Some quick example text to build on the card title and make up the
+                            bulk of
+                            the card's content.</p>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card" style="width: 25rem;">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-3"> <img><i class="fs-1 fas fa-user"></i></img></div>
+                            <div class="col-5">
+                                <h5 class="card-title text-success fw-bolder">User name</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">User</h6>
+                            </div>
+                        </div><br>
+                        <p class="card-text fs-4">Some quick example text to build on the card title and make up the
+                            bulk of
+                            the card's content.</p>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container mt-5 mb-5">
+        <div class="row">
+            <h1 class="text-center fw-bolder text-success">Blog</h1>
+            <h2 class="text-center">News & Articles</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12 center">
+                <div class="card text-center center" style="width: 18rem;">
+                    <img src="./images/blog1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6">
+                                <h5 class="card-title text-start text-success fw-bold">Admin</h5>
+                            </div>
+                            <div class="col-6">
+                                <h5 class="card-title text-end text-success fw-bold">15 min</h5>
+                            </div>
+                        </div>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="#" class="card-link">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="card text-center center" style="width: 18rem;">
+                    <img src="./images/blog2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6">
+                                <h5 class="card-title text-start text-success fw-bold">Admin</h5>
+                            </div>
+                            <div class="col-6">
+                                <h5 class="card-title text-end text-success fw-bold">15 min</h5>
+                            </div>
+                        </div>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+
+                    <div class="card-body">
+                        <a href="#" class="card-link">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="card text-center center" style="width: 18rem;">
+                    <img src="./images/blog3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6">
+                                <h5 class="card-title text-start text-success fw-bold">Admin</h5>
+                            </div>
+                            <div class="col-6">
+                                <h5 class="card-title text-end text-success fw-bold">15 min</h5>
+                            </div>
+                        </div>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+
+                    <div class="card-body">
+                        <a href="#" class="card-link">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12 text-center">
+                <button class="btn btn-primary text-center fw-bold">View More Articles</button>
+            </div>
+        </div>
+    </div>
+    <div class="bg-success mt-5 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <img src="/images/playstore.png" alt="">
+                </div>
+                <div class="col-6">
+                    <h1 class="text-light center-playstore">Discover the new way
+                        of farming and cattle trading</h1>
+                        <a href=""><img src="/images/640px-Google_Play_Store_badge_EN.svg.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt5 mb-5">
+        <div class="row text-center">
+            <div class="col-sm-3">
+                <h2 class="text-success fw-bolder">123456</h2>
+                <h3>Satisfied Users</h3>
+            </div>
+            <div class="col-sm-3">
+                <h2 class="text-success fw-bolder">123456</h2>
+                <h3>Countries</h3>
+            </div>
+            <div class="col-sm-3">
+                <h2 class="text-success fw-bolder">123456</h2>
+                <h3>Active Trading</h3>
+            </div>
+            <div class="col-sm-3">
+                <h2 class="text-success fw-bolder">123456</h2>
+                <h3>Articles</h3>
+            </div>
+        </div>
+    </div>
+    <div class="bg-dark mt-5 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="row"><img src="/icons/Farmistry App - Logo and Doodle-09.png" alt=""></div>
+                    <div class="row ms-5" >
+                        <div class="col-2"><a href="" style="text-decoration: none;">About</a></div>
+                        <div class="col-2"><a href="" style="text-decoration: none;">Team</a></div>
+                        <div class="col-2"><a href="" style="text-decoration: none;">Blog</a></div>
+                        <div class="col-2"><a href="" style="text-decoration: none;">Contact</a></div>
+                        <div class="col-2"><a href="" style="text-decoration: none;">Privacy</a></div>  
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 text-light">
+                    <div class="row mt-5">
+                        <div class="col-6  text-end">
+                            <h4>9876543210</h4>
+                        </div>
+                        <div class="col-6 text-start">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 text-end">
+                            <h4>bsiness@gmail.com</h4>
+                        </div>
+                        <div class="col-6 text-start">
+                            <i class="far fa-envelope-open"></i>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 text-end">
+                            <h4>Address, Lane, Street <br> District, State, Country <br> Pin - 987654</h4>
+                        </div>
+                        <div class="col-6 text-start">
+                            <i class="fas fa-map-marker"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
